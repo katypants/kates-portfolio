@@ -23,10 +23,15 @@ h1 {
 
 h2 {
   display: block;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  font-size: 64px;
 }
 
 p {
   display: block;
+  font-size: 18px;
+  line-height: 30px;
 }
 
 .hero {
@@ -55,10 +60,10 @@ p {
   text-decoration: none;
   vertical-align: middle;
   cursor: pointer;
-  border-radius: 4 px;
+  border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
-  padding: 15 px 30px;
+  padding: 15px 30px;
 }
 
 .btn-branding {
@@ -69,4 +74,13 @@ p {
 .btn-branding-outline {
   color: var(--branding-color);
   border: 1px solid var(--branding-color);
+}
+
+@media (max-width: 900px) {
+  body {
+    text-align: center;
+  }
+  h2 {
+    font-size: 44px;
+  }
 }
