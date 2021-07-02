@@ -19,6 +19,7 @@ h1 {
   font-weight: bold;
   color: black;
   font-size: 96px;
+  line-height: 1.5;
 }
 
 h2 {
@@ -49,7 +50,7 @@ p {
 
 .hero h2 {
   font-weight: bold;
-  line-height: 2;
+  line-height: 1.5;
   font-size: 24px;
 }
 
@@ -79,6 +80,16 @@ p {
 @media (max-width: 900px) {
   body {
     text-align: center;
+  }
+  .hero {
+    padding: 80px 10px;
+  }
+  .hero p {
+    font-size: 24px;
+  }
+  h1 {
+    font-size: 44px;
+    line-height: 2;
   }
   h2 {
     font-size: 44px;
