@@ -32,6 +32,7 @@ h2 {
 p {
   display: block;
   font-size: 18px;
+  font-weight: normal;
   line-height: 30px;
 }
 
@@ -52,6 +53,27 @@ p {
   font-weight: bold;
   line-height: 1.5;
   font-size: 24px;
+}
+.about-section {
+  padding: 160px 20px;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.about-section-content {
+  margin: 30px;
+}
+
+.img bass-face {
+  max-width: 300px;
 }
 
 .btn {
@@ -93,5 +115,9 @@ p {
   }
   h2 {
     font-size: 44px;
+  }
+  .about-section {
+    text-align: center;
+    padding: 0;
   }
 }
