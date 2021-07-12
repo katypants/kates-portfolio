@@ -146,6 +146,15 @@ nav li.active a {
   border: 1px solid var(--branding-color);
 }
 
+.band-links {
+  color: var(--branding-color);
+  text-decoration: none;
+}
+
+.band-links:hover {
+  color: black;
+}
+
 footer {
   margin: 60px 0;
 }
