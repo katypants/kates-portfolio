@@ -195,6 +195,15 @@ footer .social-links a:hover {
   background: var(--branding-color);
 }
 
+.code-link {
+  text-decoration: none;
+  color: var(--branding-color);
+}
+
+.code-link:hover {
+  color: black;
+}
+
 @media (max-width: 900px) {
   body {
     text-align: center;
